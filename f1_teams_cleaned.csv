@@ -1,0 +1,19 @@
+id,name,location,first_entry,highest_accolades,fastest_lap_time,times_achieved,president,director,chassis,engine,tyres
+1,RED BULL RACING,"Milton Keynes, United Kingdom",1997,6,1,125,Dietrich Mateschitz,Laurent Mekies,Rb21,Honda RBPT,Pirelli
+2,MCLAREN RACING,"Woking, United Kingdom",1966,9,1,201,Zak Brown,Andrea Stella,Mcl39,Mercedes,Pirelli
+3,SCUDERIA FERRARI,"Maranello, Italy",1950,16,1,249,John Elkann,Frédéric Vasseur,Sf-25,Ferrari,Pirelli
+4,FORCE INDIA,Unknown,0,0,0,0,"Subrata Roy, Vijay Mallya",Robert Fernley,Unknown,"Ferrari V8, Mercedes V8, Mercedes V6 turbo","Bridgestone, Pirelli"
+5,MERCEDES-AMG PETRONAS,"Brackley, United Kingdom",1970,8,1,121,Markus Schäfer,Toto Wolff,W16,Mercedes,Pirelli
+6,LOTUS F1 TEAM,Unknown,0,0,0,0,"Gérard Lopez, Éric Lux,Andrew Ruhan","Éric Boullier, Matthew Carter",Unknown,Mercedes,Pirelli
+7,RACING BULLS,"Faenza, Italy",1985,0,1,2,Dietrich Mateschitz,Alan Permane,Vcarb 02,Honda RBPT,Pirelli
+8,SAUBER F1 TEAM,Unknown,0,0,0,0,Pascal Picci,Frédéric Vasseur,Unknown,Ferrari V6 turbo Type 062 EVO,Pirelli
+9,MANOR MARUSSIA F1 TEAM,Unknown,0,0,0,0,Stephen Fitzpatrick,Abdulla Boulsien,Unknown,"Cosworth, Ferrari",Pirelli
+10,CATERHAM F1 TEAM,Unknown,0,0,0,0,"Tony Fernandes, Graham Macdonald, Colin Kolles, Finbarr O'Connell","Riad Asmat, Steve Nielsen, Cyril Abiteboul, Christijan Albers, Manfredi Ravetto",Unknown,Renault,Pirelli
+11,HRT FORMULA ONE TEAM,Unknown,0,0,0,0,Saul Ruiz de Marcos,Luis Pérez-Sala,Unknown,Cosworth,"Bridgestone, Pirelli"
+12,WILLIAMS F1 TEAM,"Grove, United Kingdom",1978,9,1,114,Claire Williams,James Vowles,Fw47,Mercedes,Pirelli
+13,ALPINE F1 TEAM,"Enstone, United Kingdom",1986,2,1,21,"Alain Prost, Jérôme Stoll",Flavio Briatore,A525,Renault,Pirelli
+14,HAAS F1 TEAM,"Kannapolis, United States",2016,0,4,1,Gene Haas,Ayao Komatsu,Vf-25,Ferrari,Pirelli
+15,VIRGIN RACING,Unknown,0,0,0,0,Richard Branson,Alex Tai,Unknown,Spark SRT_01E Renault,Michelin
+16,MANOR RACING,Unknown,0,0,0,0,Stephen Fitzpatrick,Thomas Mayer,Unknown,Mercedes V6 turbo hybride,Pirelli
+17,ASTON MARTIN F1 TEAM,"Silverstone, United Kingdom",2018,0,1,1,Lawrence Stroll,Andy Cowell,Amr25,Mercedes,Pirelli
+18,STAKE F1 TEAM KICK SAUBER,"Hinwil, Switzerland",1993,0,1,1,Pascal Picci,Jonathan Wheatley,C45,Ferrari,Pirelli
