@@ -45,11 +45,11 @@ class Load:
         """
         with self.engine.begin() as conn:
             conn.execute(text(query))
-        print("✅ SQLite table created.")
+        print(" SQLite table created.")
 
     def load_sql_table(self, df: pd.DataFrame):
         df.to_sql('f1_teams', con=self.engine, if_exists='replace', index=False)
-        print("✅ Data loaded into SQLite.")
+        print("Data loaded into SQLite.")
 
     # ---------------- BigQuery ----------------
     def load_bigquery(self, df: pd.DataFrame):
@@ -59,16 +59,16 @@ class Load:
         dataset_ref = self.bq_client.dataset(self.dataset_name)
         try:
             self.bq_client.get_dataset(dataset_ref)
-            print("✅ BigQuery dataset exists.")
+            print(" BigQuery dataset exists.")
         except Exception:
             dataset = bigquery.Dataset(dataset_ref)
             dataset.location = "US"
             self.bq_client.create_dataset(dataset)
-            print("✅ BigQuery dataset created.")
+            print(" BigQuery dataset created.")
 
         # Load data
         job_config = bigquery.LoadJobConfig(write_disposition="WRITE_TRUNCATE")
         job = self.bq_client.load_table_from_dataframe(df, table_id, job_config=job_config)
         job.result()
-        print(f"✅ Data loaded into BigQuery table `{table_id}`.")
+        print(f" Data loaded into BigQuery table `{table_id}`.")
 
