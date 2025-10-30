@@ -1,7 +1,11 @@
-from Extract import Extract
-
-
+from Extract import Extract  # your API Extract class
+from Transform import Transform
+# Extract JSON from API
 extractor = Extract()
-df_api = extractor.extract(URL='https://v1.formula-1.api-sports.io/teams')
-print(df_api.head())
+team_json = extractor.extract()
 
+# Transform JSON to clean DataFrame
+transformer = Transform()
+team_df = transformer.transform(team_json)
+
+print(team_df.head())
