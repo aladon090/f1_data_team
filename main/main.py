@@ -1,6 +1,6 @@
-from Extract import Extract
-from Transform import Transform
-from Load import Load
+from extract.Extract import Extract
+from transform.Transform import Transform
+from load.Load import Load
 import pandas as pd
 from sqlalchemy import create_engine
 import sys
