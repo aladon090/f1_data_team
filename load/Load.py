@@ -70,5 +70,5 @@ class Load:
         job_config = bigquery.LoadJobConfig(write_disposition="WRITE_TRUNCATE")
         job = self.bq_client.load_table_from_dataframe(df, table_id, job_config=job_config)
         job.result()
-        print(f" Data loaded into BigQuery table `{table_id}`.")
+        print(f"Data loaded into BigQuery table `{table_id}`.")
 

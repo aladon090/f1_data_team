@@ -33,7 +33,7 @@ def main():
         # SQLite
         loader.create_sql_table()
         loader.load_sql_table(clean_df)
-        print(" Load step completed successfully.")
+        print("Load step completed successfully.")
 
         # BigQuery
         loader.load_bigquery(clean_df)
