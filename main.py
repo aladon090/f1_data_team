@@ -25,9 +25,20 @@ def main():
         print("Transform step completed successfully.")
 
         # -------------------- Load --------------------
-        loader = Load()
+        # Path to service account JSON
+        key_path = r"C:\Users\akillas\f1_data_team\credentials\big_query.json"
+
+        loader = Load(gcp_key_path=key_path)
+
+        # SQLite
         loader.create_sql_table()
         loader.load_sql_table(clean_df)
+        print("✅ Load step completed successfully.")
+
+        # BigQuery
+        loader.load_bigquery(clean_df)
+
+        print("BigQuery load completed ✅")
         print("Load step completed successfully.")
 
         # -------------------- Verify Load --------------------
