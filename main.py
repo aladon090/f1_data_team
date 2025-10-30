@@ -1,11 +1,17 @@
-from Extract import Extract  # your API Extract class
+from Extract import Extract
 from Transform import Transform
-# Extract JSON from API
+import pandas as pd
+
 extractor = Extract()
 team_json = extractor.extract()
 
-# Transform JSON to clean DataFrame
 transformer = Transform()
-team_df = transformer.transform(team_json)
+df = transformer.clean_rows(data_team=team_json)
+clean_df = transformer.clean_unknowns(df)
 
-print(team_df.head())
+pd.set_option('display.max_columns', None)  # Show all columns
+pd.set_option('display.max_rows', None)     # Show all rows
+
+print(clean_df)
+
+
