@@ -1,35 +1,41 @@
-F1 Teams ETL Pipeline
-Project Overview
+🏎️ F1 Teams ETL Pipeline with BigQuery & Apache Airflow
+ Project Overview
+This project showcases a complete ETL (Extract, Transform, Load) pipeline for Formula 1 team data, orchestrated using Apache Airflow and integrated with Google BigQuery for scalable storage and analysis. The pipeline automates the ingestion of raw data, applies transformations for consistency and quality, and loads the final dataset into BigQuery for downstream analytics and visualization.
+As a Formula 1 enthusiast, I’m drawn to the sport’s fusion of cutting-edge engineering, strategic depth, and team dynamics. Each team’s legacy, performance metrics, and technical evolution offer rich data for exploration and storytelling.
 
-This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using Formula 1 team data. The pipeline extracts raw data from an API or CSV, transforms it for consistency and completeness, and loads it into a SQLite database. This setup ensures that F1 team data is clean, standardized, and ready for analysis.
+ETL Pipeline Stages
+1. Extract
 
-I am personally fascinated by Formula 1 because it combines cutting-edge technology, teamwork, and strategy in a highly competitive environment. Each team’s history, performance, and innovations offer rich insights, which makes the data particularly interesting to analyze and visualize.
+Source: API-SPORTS F1 API or CSV files
+Details: Retrieves official team data including names, locations, championship history, and technical specs.
 
-Key steps of the pipeline:
+2. Transform
 
-Extract: Fetch raw team data from a reliable source.
+Cleaning & Standardization:
 
-Data Source: API-SPORTS F1 API
- provides official Formula 1 team data, including team names, locations, championship wins, and technical specifications. Alternatively, CSV files can be used for offline extraction.
+Fill missing values (e.g., location, chassis)
+Normalize column names (lowercase, underscores)
+Convert numeric fields to consistent types
+Format text fields (e.g., uppercase team names)
 
-Transform: Clean and standardize the data.
 
-Fill missing values for fields like team location and chassis.
 
-Standardize column names to lowercase with underscores.
+3. Load
 
-Convert numeric columns to consistent data types.
+Target: Google BigQuery
+Benefits:
 
-Ensure text fields have consistent formatting (e.g., uppercase for team names).
+Scalable, fast querying
+Integration with BI tools (e.g., Looker, Data Studio)
+Supports advanced analytics and ML workflows
 
-Load: Store the cleaned data into a SQLite database for further analysis or reporting.
 
-The database allows for fast queries, future expansions, and integration with visualization tools.
 
-Analysis (Optional): Visualize key metrics such as:
+4. Orchestration
 
-Number of championships per team
+Tool: Apache Airflow
+Purpose:
 
-Fastest laps or race performance
-
-Geographical distribution of team bases
+Automates daily/weekly ETL runs
+Monitors task execution and failures
+Enables modular DAG design for future expansion
