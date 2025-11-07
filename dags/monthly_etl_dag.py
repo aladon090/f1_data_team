@@ -4,7 +4,7 @@ import datetime
 
 from airflow.models.dag import DAG
 from airflow.operators.python import PythonOperator
-from main import main
+from dags.main import main
 
 # Define default arguments
 default_args = {

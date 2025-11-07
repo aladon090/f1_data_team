@@ -26,7 +26,7 @@ def main():
 
         # -------------------- Load --------------------
         # Path to service account JSON
-        key_path = r"C:\Users\akillas\f1_data_team\credentials\big_query.json"
+        key_path = r"/credentials/big_query.json"
 
         loader = Load(gcp_key_path=key_path)
 
