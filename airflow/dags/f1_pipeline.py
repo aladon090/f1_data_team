@@ -15,7 +15,7 @@ sys.path.insert(0, '/workspaces/f1_data_team')
 
 
 # 2. Now import your custom logic
-from src.data_ingestion import ingest_f1_json
+from src.data_ingestion import ingest_f1_json,transform_to_df
 
 
 # Load environment variables
@@ -47,6 +47,13 @@ def extract_json_ti(ti, API_F1_KEY, F1_URL):
     # Push file path to XCom
     ti.xcom_push(key='f1_json_path', value=file_path)
 
+def json_to_parquet_ti(ti):
+    json_file_path = ti.xcom_pull(task_ids='extract_f1_json_task',
+    key='f1_json_path')
+
+    df = transform_to_df(F1_FILE_PATH=json_file_path)
+    
+
 
 with DAG(
     dag_id='f1_pipeline',
@@ -67,6 +74,12 @@ with DAG(
             'API_F1_KEY': API_F1_KEY,
             'F1_URL': F1_URL
         }
+    )
+
+    json_to_parquet = PythonOperator(
+        task_id = 'json_transform_to_parquet',
+        python_callable = json_to_parquet_ti
+
     )
 
 
