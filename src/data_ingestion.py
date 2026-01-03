@@ -54,11 +54,11 @@ def transform_to_df(F1_FILE_PATH):
 
     rows.append(tuple_teams)
 
-    df = pd.DataFrame(rows,columns=column_names, index=False)
+    df = pd.DataFrame(rows,columns=column_names)
     
     return df
 
-def df_to_parquet(df):
+def df_to_parquet(df,ti):
     # Convert Pandas DataFrame to PyArrow Table
     table = pa.Table.from_pandas(df, preserve_index=False)
 
@@ -77,6 +77,8 @@ def df_to_parquet(df):
     )
     
     print(f"File successfully saved to: {file_path}")
+
+    ti.xcom_push(key="f1_parquet_path", value=file_path)
     
 
 

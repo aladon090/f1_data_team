@@ -15,7 +15,7 @@ sys.path.insert(0, '/workspaces/f1_data_team')
 
 
 # 2. Now import your custom logic
-from src.data_ingestion import ingest_f1_json,transform_to_df
+from src.data_ingestion import ingest_f1_json,transform_to_df,df_to_parquet
 
 
 # Load environment variables
@@ -52,7 +52,9 @@ def json_to_parquet_ti(ti):
     key='f1_json_path')
 
     df = transform_to_df(F1_FILE_PATH=json_file_path)
-    
+
+    df_to_parquet(df=df,ti=ti)
+
 
 
 with DAG(
@@ -84,6 +86,6 @@ with DAG(
 
 
     # In Airflow 2.x, the variable itself acts as the task definition
-    extract_task
+    extract_task >> json_to_parquet
 
 
