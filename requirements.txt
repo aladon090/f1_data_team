@@ -1,0 +1,6 @@
+pandas
+pendulum
+python-dotenv
+requests
+pyarrow
+dotenv
