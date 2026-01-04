@@ -1,0 +1,394 @@
+[2026-01-04T12:51:32.074+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-04T12:51:32.081+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: f1_pipeline.extract_f1_json_task manual__2026-01-04T12:51:28.563472+00:00 [queued]>
+[2026-01-04T12:51:32.084+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: f1_pipeline.extract_f1_json_task manual__2026-01-04T12:51:28.563472+00:00 [queued]>
+[2026-01-04T12:51:32.085+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-01-04T12:51:32.094+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_f1_json_task> on 2026-01-04 12:51:28.563472+00:00
+[2026-01-04T12:51:32.108+0000] {logging_mixin.py:190} WARNING - /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=43850) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-04T12:51:32.109+0000] {standard_task_runner.py:72} INFO - Started process 43917 to run task
+[2026-01-04T12:51:32.106+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'f1_pipeline', 'extract_f1_json_task', 'manual__2026-01-04T12:51:28.563472+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/f1_pipeline.py', '--cfg-path', '/tmp/tmpmn321f3g']
+[2026-01-04T12:51:32.111+0000] {standard_task_runner.py:105} INFO - Job 25: Subtask extract_f1_json_task
+[2026-01-04T12:51:32.144+0000] {task_command.py:467} INFO - Running <TaskInstance: f1_pipeline.extract_f1_json_task manual__2026-01-04T12:51:28.563472+00:00 [running]> on host codespaces-54af50
+[2026-01-04T12:51:32.182+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='loonycorn' AIRFLOW_CTX_DAG_ID='f1_pipeline' AIRFLOW_CTX_TASK_ID='extract_f1_json_task' AIRFLOW_CTX_EXECUTION_DATE='2026-01-04T12:51:28.563472+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-04T12:51:28.563472+00:00'
+[2026-01-04T12:51:32.182+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-01-04T12:51:32.183+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-01-04T12:51:32.183+0000] {logging_mixin.py:190} INFO - Current task name:extract_f1_json_task state:running start_date:2026-01-04 12:51:32.081302+00:00
+[2026-01-04T12:51:32.183+0000] {logging_mixin.py:190} INFO - Dag name:f1_pipeline and current dag run status:running
+[2026-01-04T12:51:32.183+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-04T12:51:32.267+0000] {logging_mixin.py:190} INFO - {
+    "get": "teams",
+    "parameters": [],
+    "errors": [],
+    "results": 18,
+    "response": [
+        {
+            "id": 1,
+            "name": "Red Bull Racing",
+            "logo": "https://media.api-sports.io/formula-1/teams/1.png",
+            "base": "Milton Keynes, United Kingdom",
+            "first_team_entry": 1997,
+            "world_championships": 6,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 128
+            },
+            "pole_positions": 110,
+            "fastest_laps": 100,
+            "president": "Dietrich Mateschitz",
+            "director": "Laurent Mekies",
+            "technical_manager": "Pierre Wach\u00e9",
+            "chassis": "RB21",
+            "engine": "Honda RBPT",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 2,
+            "name": "McLaren Racing",
+            "logo": "https://media.api-sports.io/formula-1/teams/2.png",
+            "base": "Woking, United Kingdom",
+            "first_team_entry": 1966,
+            "world_championships": 10,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 203
+            },
+            "pole_positions": 176,
+            "fastest_laps": 179,
+            "president": "Zak Brown",
+            "director": "Andrea Stella",
+            "technical_manager": "Peter Prodromou / Neil Houldey",
+            "chassis": "MCL39",
+            "engine": "Mercedes",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 3,
+            "name": "Scuderia Ferrari",
+            "logo": "https://media.api-sports.io/formula-1/teams/3.png",
+            "base": "Maranello, Italy",
+            "first_team_entry": 1950,
+            "world_championships": 16,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 249
+            },
+            "pole_positions": 254,
+            "fastest_laps": 263,
+            "president": "John Elkann",
+            "director": "Fr\u00e9d\u00e9ric Vasseur",
+            "technical_manager": "Loic Serra / Enrico Gualtieri",
+            "chassis": "SF-25",
+            "engine": "Ferrari",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 4,
+            "name": "Force India",
+            "logo": "https://media.api-sports.io/formula-1/teams/4.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Subrata Roy, Vijay Mallya",
+            "director": "Robert Fernley",
+            "technical_manager": "Andrew Green",
+            "chassis": null,
+            "engine": "Ferrari V8, Mercedes V8, Mercedes V6 turbo",
+            "tyres": "Bridgestone, Pirelli"
+        },
+        {
+            "id": 5,
+            "name": "Mercedes-AMG Petronas",
+            "logo": "https://media.api-sports.io/formula-1/teams/5.png",
+            "base": "Brackley, United Kingdom",
+            "first_team_entry": 1970,
+            "world_championships": 8,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 122
+            },
+            "pole_positions": 135,
+            "fastest_laps": 101,
+            "president": "Markus Sch\u00e4fer",
+            "director": "Toto Wolff",
+            "technical_manager": "James Allison",
+            "chassis": "W16",
+            "engine": "Mercedes",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 6,
+            "name": "Lotus F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/6.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "G\u00e9rard Lopez, \u00c9ric Lux,Andrew Ruhan",
+            "director": "\u00c9ric Boullier, Matthew Carter",
+            "technical_manager": "James Allison, Nick Chester",
+            "chassis": null,
+            "engine": "Mercedes",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 7,
+            "name": "Racing Bulls",
+            "logo": "https://media.api-sports.io/formula-1/teams/7.png",
+            "base": "Faenza, Italy",
+            "first_team_entry": 1985,
+            "world_championships": 0,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 2
+            },
+            "pole_positions": 1,
+            "fastest_laps": 4,
+            "president": "Dietrich Mateschitz",
+            "director": "Alan Permane",
+            "technical_manager": "Tim Goss",
+            "chassis": "VCARB 02",
+            "engine": "Honda RBPT",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 8,
+            "name": "Sauber F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/8.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Pascal Picci",
+            "director": "Fr\u00e9d\u00e9ric Vasseur",
+            "technical_manager": "Simone Resta",
+            "chassis": null,
+            "engine": "Ferrari V6 turbo Type 062 EVO",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 9,
+            "name": "Manor Marussia F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/9.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Stephen Fitzpatrick",
+            "director": "Abdulla Boulsien",
+            "technical_manager": "John McQuilliam",
+            "chassis": null,
+            "engine": "Cosworth, Ferrari",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 10,
+            "name": "Caterham F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/10.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Tony Fernandes, Graham Macdonald, Colin Kolles, Finbarr O'Connell",
+            "director": "Riad Asmat, Steve Nielsen, Cyril Abiteboul, Christijan Albers, Manfredi Ravetto",
+            "technical_manager": "Mike Gascoyne, Mark Smith, John Iley",
+            "chassis": null,
+            "engine": "Renault",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 11,
+            "name": "HRT Formula One Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/11.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Saul Ruiz de Marcos",
+            "director": "Luis P\u00e9rez-Sala",
+            "technical_manager": "Toni Cuquerella",
+            "chassis": null,
+            "engine": "Cosworth",
+            "tyres": "Bridgestone, Pirelli"
+        },
+        {
+            "id": 12,
+            "name": "Williams F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/12.png",
+            "base": "Grove, United Kingdom",
+            "first_team_entry": 1978,
+            "world_championships": 9,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 114
+            },
+            "pole_positions": 128,
+            "fastest_laps": 133,
+            "president": "Claire Williams",
+            "director": "James Vowles",
+            "technical_manager": "Pat Fry",
+            "chassis": "FW47",
+            "engine": "Mercedes",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 13,
+            "name": "Alpine F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/13.png",
+            "base": "Enstone, United Kingdom",
+            "first_team_entry": 1986,
+            "world_championships": 2,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 21
+            },
+            "pole_positions": 20,
+            "fastest_laps": 16,
+            "president": "Alain Prost, J\u00e9r\u00f4me Stoll ",
+            "director": "Flavio Briatore",
+            "technical_manager": "David Sanchez",
+            "chassis": "A525",
+            "engine": "Renault",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 14,
+            "name": "Haas F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/14.png",
+            "base": "Kannapolis, United States",
+            "first_team_entry": 2016,
+            "world_championships": 0,
+            "highest_race_finish": {
+                "position": 4,
+                "number": 2
+            },
+            "pole_positions": 1,
+            "fastest_laps": 3,
+            "president": "Gene Haas",
+            "director": "Ayao Komatsu",
+            "technical_manager": "Andrea De Zordo",
+            "chassis": "VF-25",
+            "engine": "Ferrari",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 15,
+            "name": "Virgin Racing",
+            "logo": "https://media.api-sports.io/formula-1/teams/15.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Richard Branson",
+            "director": "Alex Tai",
+            "technical_manager": null,
+            "chassis": null,
+            "engine": "Spark SRT_01E Renault",
+            "tyres": "Michelin"
+        },
+        {
+            "id": 16,
+            "name": "Manor Racing",
+            "logo": "https://media.api-sports.io/formula-1/teams/16.png",
+            "base": null,
+            "first_team_entry": null,
+            "world_championships": null,
+            "highest_race_finish": {
+                "position": null,
+                "number": null
+            },
+            "pole_positions": null,
+            "fastest_laps": null,
+            "president": "Stephen Fitzpatrick",
+            "director": "Thomas Mayer",
+            "technical_manager": "John McQuilliam, Nikolas Tombazis",
+            "chassis": null,
+            "engine": "Mercedes V6 turbo hybride",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 17,
+            "name": "Aston Martin F1 Team",
+            "logo": "https://media.api-sports.io/formula-1/teams/17.png",
+            "base": "Silverstone, United Kingdom",
+            "first_team_entry": 2018,
+            "world_championships": 0,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 1
+            },
+            "pole_positions": 1,
+            "fastest_laps": 3,
+            "president": "Lawrence Stroll",
+            "director": "Andy Cowell",
+            "technical_manager": "Enrico Cardile",
+            "chassis": "AMR25",
+            "engine": "Mercedes",
+            "tyres": "Pirelli"
+        },
+        {
+            "id": 18,
+            "name": "Stake F1 Team Kick Sauber",
+            "logo": "https://media.api-sports.io/formula-1/teams/18.png",
+            "base": "Hinwil, Switzerland",
+            "first_team_entry": 1993,
+            "world_championships": 0,
+            "highest_race_finish": {
+                "position": 1,
+                "number": 1
+            },
+            "pole_positions": 1,
+            "fastest_laps": 7,
+            "president": "Pascal Picci",
+            "director": "Jonathan Wheatley",
+            "technical_manager": "James Key",
+            "chassis": "C45",
+            "engine": "Ferrari",
+            "tyres": "Pirelli"
+        }
+    ]
+}
+[2026-01-04T12:51:32.279+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-01-04T12:51:32.282+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-04T12:51:32.282+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=f1_pipeline, task_id=extract_f1_json_task, run_id=manual__2026-01-04T12:51:28.563472+00:00, execution_date=20260104T125128, start_date=20260104T125132, end_date=20260104T125132
+[2026-01-04T12:51:32.289+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-01-04T12:51:32.289+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-01-04T12:51:32.289+0000] {logging_mixin.py:190} INFO - Dag name:f1_pipeline queued_at:2026-01-04 12:51:28.852282+00:00
+[2026-01-04T12:51:32.290+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-54af50 operator:PythonOperator
+[2026-01-04T12:51:32.325+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-01-04T12:51:32.339+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-04T12:51:32.342+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

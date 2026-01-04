@@ -1,0 +1,26 @@
+[2026-01-04T12:54:47.610+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-04T12:54:47.617+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: f1_pipeline.json_transform_to_parquet manual__2026-01-04T12:54:41.636159+00:00 [queued]>
+[2026-01-04T12:54:47.621+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: f1_pipeline.json_transform_to_parquet manual__2026-01-04T12:54:41.636159+00:00 [queued]>
+[2026-01-04T12:54:47.622+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-01-04T12:54:47.632+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): json_transform_to_parquet> on 2026-01-04 12:54:41.636159+00:00
+[2026-01-04T12:54:47.640+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'f1_pipeline', 'json_transform_to_parquet', 'manual__2026-01-04T12:54:41.636159+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/f1_pipeline.py', '--cfg-path', '/tmp/tmplmn6htsn']
+[2026-01-04T12:54:47.641+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask json_transform_to_parquet
+[2026-01-04T12:54:47.643+0000] {logging_mixin.py:190} WARNING - /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=46965) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-04T12:54:47.644+0000] {standard_task_runner.py:72} INFO - Started process 46988 to run task
+[2026-01-04T12:54:47.670+0000] {task_command.py:467} INFO - Running <TaskInstance: f1_pipeline.json_transform_to_parquet manual__2026-01-04T12:54:41.636159+00:00 [running]> on host codespaces-54af50
+[2026-01-04T12:54:47.710+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='loonycorn' AIRFLOW_CTX_DAG_ID='f1_pipeline' AIRFLOW_CTX_TASK_ID='json_transform_to_parquet' AIRFLOW_CTX_EXECUTION_DATE='2026-01-04T12:54:41.636159+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-04T12:54:41.636159+00:00'
+[2026-01-04T12:54:47.711+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-01-04T12:54:47.712+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-01-04T12:54:47.712+0000] {logging_mixin.py:190} INFO - Current task name:json_transform_to_parquet state:running start_date:2026-01-04 12:54:47.617887+00:00
+[2026-01-04T12:54:47.712+0000] {logging_mixin.py:190} INFO - Dag name:f1_pipeline and current dag run status:running
+[2026-01-04T12:54:47.712+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-04T12:54:47.731+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-01-04T12:54:47.736+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-04T12:54:47.736+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=f1_pipeline, task_id=json_transform_to_parquet, run_id=manual__2026-01-04T12:54:41.636159+00:00, execution_date=20260104T125441, start_date=20260104T125447, end_date=20260104T125447
+[2026-01-04T12:54:47.742+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-01-04T12:54:47.743+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-01-04T12:54:47.743+0000] {logging_mixin.py:190} INFO - Dag name:f1_pipeline queued_at:2026-01-04 12:54:41.645535+00:00
+[2026-01-04T12:54:47.743+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-54af50 operator:PythonOperator
+[2026-01-04T12:54:47.780+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-01-04T12:54:47.792+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-04T12:54:47.795+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

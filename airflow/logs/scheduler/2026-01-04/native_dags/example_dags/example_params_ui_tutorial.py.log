@@ -1,0 +1,246 @@
+[2026-01-04T12:27:06.467+0000] {processor.py:186} INFO - Started process (PID=24695) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:27:06.467+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:27:06.469+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:27:06.476+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:27:06.596+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.595+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2026-01-04T12:27:06.603+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.603+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2026-01-04T12:27:06.608+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.608+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2026-01-04T12:27:06.616+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.616+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_params_ui_tutorial
+[2026-01-04T12:27:06.622+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.621+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_params_ui_tutorial
+[2026-01-04T12:27:06.627+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.627+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_params_ui_tutorial
+[2026-01-04T12:27:06.632+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.632+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_params_ui_tutorial
+[2026-01-04T12:27:06.632+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:27:06.640+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.640+0000] {dag.py:3262} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2026-01-04T12:27:06.641+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:27:06.641+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:27:06.656+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.193 seconds
+[2026-01-04T12:28:06.767+0000] {processor.py:186} INFO - Started process (PID=25231) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:28:06.768+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:28:06.770+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:28:06.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:28:06.778+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:28:06.807+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:28:06.806+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:28:06.816+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:28:06.816+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:28:06.832+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:29:04.719+0000] {processor.py:186} INFO - Started process (PID=26211) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:29:04.720+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:29:04.722+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:29:04.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:29:04.729+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:29:04.758+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:29:04.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:29:04.769+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:29:04.768+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:29:04.783+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:30:45.277+0000] {processor.py:186} INFO - Started process (PID=27750) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:30:45.278+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:30:45.280+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:30:45.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:30:45.287+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:30:45.317+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:30:45.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:30:45.326+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:30:45.326+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:30:45.340+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:31:43.891+0000] {processor.py:186} INFO - Started process (PID=28739) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:31:43.892+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:31:43.894+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:31:43.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:31:43.901+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:31:43.935+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:31:43.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:31:43.944+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:31:43.944+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:31:43.958+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2026-01-04T12:32:51.749+0000] {processor.py:186} INFO - Started process (PID=29942) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:32:51.750+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:32:51.752+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:32:51.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:32:51.759+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:32:51.790+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:32:51.789+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:32:51.799+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:32:51.799+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:32:51.814+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2026-01-04T12:33:54.662+0000] {processor.py:186} INFO - Started process (PID=30745) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:33:54.663+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:33:54.665+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:33:54.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:33:54.672+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:33:54.702+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:33:54.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:33:54.711+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:33:54.711+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:33:54.726+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2026-01-04T12:34:50.013+0000] {processor.py:186} INFO - Started process (PID=31307) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:34:50.014+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:34:50.015+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:34:50.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:34:50.023+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:34:50.052+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:34:50.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:34:50.061+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:34:50.061+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:34:50.076+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2026-01-04T12:35:45.392+0000] {processor.py:186} INFO - Started process (PID=31859) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:35:45.393+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:35:45.395+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:35:45.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:35:45.402+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:35:45.431+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:35:45.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:35:45.440+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:35:45.440+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:35:45.456+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2026-01-04T12:36:37.707+0000] {processor.py:186} INFO - Started process (PID=32464) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:36:37.708+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:36:37.710+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:36:37.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:36:37.717+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:36:37.747+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:36:37.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:36:37.756+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:36:37.756+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:36:37.771+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:37:31.539+0000] {processor.py:186} INFO - Started process (PID=33081) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:37:31.540+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:37:31.542+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:37:31.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:37:31.549+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:37:31.578+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:37:31.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:37:31.588+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:37:31.588+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:37:31.602+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2026-01-04T12:38:23.413+0000] {processor.py:186} INFO - Started process (PID=33854) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:38:23.414+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:38:23.415+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:38:23.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:38:23.423+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:38:23.452+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:38:23.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:38:23.465+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:38:23.465+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:38:23.504+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.096 seconds
+[2026-01-04T12:39:16.080+0000] {processor.py:186} INFO - Started process (PID=34273) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:39:16.081+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:39:16.083+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:39:16.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:39:16.090+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:39:16.119+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:39:16.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:39:16.129+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:39:16.129+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:39:16.147+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2026-01-04T12:40:10.551+0000] {processor.py:186} INFO - Started process (PID=34813) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:40:10.552+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:40:10.554+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:40:10.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:40:10.561+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:40:10.590+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:40:10.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:40:10.603+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:40:10.603+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:40:10.623+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.076 seconds
+[2026-01-04T12:41:50.332+0000] {processor.py:186} INFO - Started process (PID=36065) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:41:50.333+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:41:50.335+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:41:50.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:41:50.343+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:41:50.374+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:41:50.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:41:50.384+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:41:50.384+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:41:50.399+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2026-01-04T12:42:55.547+0000] {processor.py:186} INFO - Started process (PID=37079) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:42:55.548+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:42:55.550+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:42:55.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:42:55.557+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:42:55.587+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:42:55.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:42:55.596+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:42:55.596+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:42:55.611+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2026-01-04T12:43:57.892+0000] {processor.py:186} INFO - Started process (PID=37813) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:43:57.893+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:43:57.895+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:43:57.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:43:57.902+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:43:57.931+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:43:57.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:43:57.941+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:43:57.941+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:43:57.955+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.068 seconds
+[2026-01-04T12:44:51.430+0000] {processor.py:186} INFO - Started process (PID=38666) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:44:51.430+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:44:51.432+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:44:51.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:44:51.439+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:44:51.469+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:44:51.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:44:51.479+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:44:51.479+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:44:51.494+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:45:56.255+0000] {processor.py:186} INFO - Started process (PID=39619) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:45:56.256+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:45:56.258+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:45:56.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:45:56.266+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:45:56.294+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:45:56.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:45:56.305+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:45:56.305+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:45:56.347+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.097 seconds
+[2026-01-04T12:46:47.752+0000] {processor.py:186} INFO - Started process (PID=40162) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:46:47.753+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:46:47.755+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:46:47.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:46:47.762+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:46:47.793+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:46:47.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:46:47.805+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:46:47.805+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:46:47.821+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2026-01-04T12:47:39.536+0000] {processor.py:186} INFO - Started process (PID=40669) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:47:39.537+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:47:39.540+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:47:39.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:47:39.551+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:47:39.594+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:47:39.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:47:39.605+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:47:39.604+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:47:39.622+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.091 seconds
+[2026-01-04T12:49:10.645+0000] {processor.py:186} INFO - Started process (PID=42111) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:49:10.646+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:49:10.648+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:49:10.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:49:10.655+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:49:10.686+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:49:10.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:49:10.696+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:49:10.696+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:49:10.711+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2026-01-04T12:50:07.765+0000] {processor.py:186} INFO - Started process (PID=42677) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:50:07.766+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:50:07.768+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:50:07.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:50:07.776+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:50:07.805+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:50:07.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:50:07.815+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:50:07.815+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:50:07.829+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:51:45.134+0000] {processor.py:186} INFO - Started process (PID=44206) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:51:45.135+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:51:45.137+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:51:45.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:51:45.144+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:51:45.175+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:51:45.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:51:45.185+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:51:45.185+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:51:45.201+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.073 seconds
+[2026-01-04T12:52:43.955+0000] {processor.py:186} INFO - Started process (PID=45089) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:52:43.956+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:52:43.958+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:52:43.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:52:43.965+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:52:43.995+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:52:43.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:52:44.004+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:52:44.004+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:52:44.019+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:53:39.314+0000] {processor.py:186} INFO - Started process (PID=45936) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:53:39.315+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:53:39.317+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:53:39.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:53:39.324+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:53:39.353+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:53:39.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:53:39.362+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:53:39.362+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:53:39.377+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.067 seconds
+[2026-01-04T12:54:37.308+0000] {processor.py:186} INFO - Started process (PID=46779) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:54:37.309+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:54:37.311+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:54:37.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:54:37.318+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:54:37.348+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:54:37.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:54:37.358+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:54:37.358+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:54:37.372+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.071 seconds
+[2026-01-04T12:55:40.853+0000] {processor.py:186} INFO - Started process (PID=47775) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:55:40.854+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:55:40.856+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:55:40.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:55:40.863+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:55:40.893+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:55:40.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:55:40.903+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:55:40.903+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:55:40.918+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds
+[2026-01-04T12:56:36.126+0000] {processor.py:186} INFO - Started process (PID=48338) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:56:36.126+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:56:36.128+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:56:36.128+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:56:36.136+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:56:36.166+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:56:36.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:56:36.175+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:56:36.175+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:56:36.190+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:57:42.767+0000] {processor.py:186} INFO - Started process (PID=48940) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:57:42.768+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:57:42.770+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:57:42.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:57:42.777+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:57:42.807+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:57:42.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:57:42.817+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:57:42.817+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:57:42.838+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.076 seconds
+[2026-01-04T12:58:34.333+0000] {processor.py:186} INFO - Started process (PID=49449) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:58:34.334+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:58:34.336+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:58:34.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:58:34.343+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:58:34.373+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:58:34.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:58:34.383+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:58:34.383+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:58:34.398+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T12:59:30.461+0000] {processor.py:186} INFO - Started process (PID=50010) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:59:30.462+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T12:59:30.464+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:59:30.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:59:30.471+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T12:59:30.500+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:59:30.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T12:59:30.510+0000] {logging_mixin.py:190} INFO - [2026-01-04T12:59:30.509+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T12:59:30.524+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.069 seconds
+[2026-01-04T13:00:24.172+0000] {processor.py:186} INFO - Started process (PID=50609) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T13:00:24.173+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T13:00:24.175+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:00:24.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T13:00:24.183+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T13:00:24.213+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:00:24.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:00:24.223+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:00:24.223+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T13:00:24.238+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.072 seconds
+[2026-01-04T13:01:16.099+0000] {processor.py:186} INFO - Started process (PID=51187) to work on /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T13:01:16.099+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2026-01-04T13:01:16.101+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:16.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T13:01:16.109+0000] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2026-01-04T13:01:16.139+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:16.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:01:16.149+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:16.148+0000] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2026-01-04T13:01:16.164+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.070 seconds

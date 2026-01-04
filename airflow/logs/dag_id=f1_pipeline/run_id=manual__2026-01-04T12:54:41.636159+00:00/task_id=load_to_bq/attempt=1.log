@@ -1,0 +1,31 @@
+[2026-01-04T12:54:53.994+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-04T12:54:54.002+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: f1_pipeline.load_to_bq manual__2026-01-04T12:54:41.636159+00:00 [queued]>
+[2026-01-04T12:54:54.006+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: f1_pipeline.load_to_bq manual__2026-01-04T12:54:41.636159+00:00 [queued]>
+[2026-01-04T12:54:54.007+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-01-04T12:54:54.017+0000] {taskinstance.py:2889} INFO - Executing <Task(GCSToBigQueryOperator): load_to_bq> on 2026-01-04 12:54:41.636159+00:00
+[2026-01-04T12:54:54.025+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'f1_pipeline', 'load_to_bq', 'manual__2026-01-04T12:54:41.636159+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/f1_pipeline.py', '--cfg-path', '/tmp/tmp01qp2pq9']
+[2026-01-04T12:54:54.026+0000] {standard_task_runner.py:105} INFO - Job 31: Subtask load_to_bq
+[2026-01-04T12:54:54.028+0000] {logging_mixin.py:190} WARNING - /workspaces/f1_data_team/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=47082) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-04T12:54:54.029+0000] {standard_task_runner.py:72} INFO - Started process 47137 to run task
+[2026-01-04T12:54:54.055+0000] {task_command.py:467} INFO - Running <TaskInstance: f1_pipeline.load_to_bq manual__2026-01-04T12:54:41.636159+00:00 [running]> on host codespaces-54af50
+[2026-01-04T12:54:54.096+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='loonycorn' AIRFLOW_CTX_DAG_ID='f1_pipeline' AIRFLOW_CTX_TASK_ID='load_to_bq' AIRFLOW_CTX_EXECUTION_DATE='2026-01-04T12:54:41.636159+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-04T12:54:41.636159+00:00'
+[2026-01-04T12:54:54.097+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-01-04T12:54:54.098+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-01-04T12:54:54.098+0000] {logging_mixin.py:190} INFO - Current task name:load_to_bq state:running start_date:2026-01-04 12:54:54.002995+00:00
+[2026-01-04T12:54:54.098+0000] {logging_mixin.py:190} INFO - Dag name:f1_pipeline and current dag run status:running
+[2026-01-04T12:54:54.098+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-04T12:54:54.104+0000] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2026-01-04T12:54:54.106+0000] {base.py:84} INFO - Retrieving connection 'google_cloud_default'
+[2026-01-04T12:54:54.107+0000] {gcs_to_bigquery.py:389} INFO - Using existing BigQuery table for storing data...
+[2026-01-04T12:54:54.107+0000] {credentials_provider.py:402} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2026-01-04T12:54:54.153+0000] {gcs_to_bigquery.py:393} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'f1-project-483311', 'datasetId': 'f1_raw_zone', 'tableId': 'teams'}, 'sourceFormat': 'PARQUET', 'sourceUris': ['gs://f1-data-lake-project-id/raw/f1_teams.parquet'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False}}
+[2026-01-04T12:54:54.154+0000] {bigquery.py:1241} INFO - Inserting job airflow_f1_pipeline_load_to_bq_2026_01_04T12_54_41_636159_00_00_3f577ce41e0c9a3a2bac3a9f202ae5d2
+[2026-01-04T12:54:58.128+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-04T12:54:58.129+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=f1_pipeline, task_id=load_to_bq, run_id=manual__2026-01-04T12:54:41.636159+00:00, execution_date=20260104T125441, start_date=20260104T125454, end_date=20260104T125458
+[2026-01-04T12:54:58.136+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-01-04T12:54:58.136+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-01-04T12:54:58.136+0000] {logging_mixin.py:190} INFO - Dag name:f1_pipeline queued_at:2026-01-04 12:54:41.645535+00:00
+[2026-01-04T12:54:58.137+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-54af50 operator:GCSToBigQueryOperator
+[2026-01-04T12:54:58.175+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-01-04T12:54:58.186+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-04T12:54:58.186+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
