@@ -1,2 +1,4 @@
 .env
-venv
+venv/
+airflow_key.json
+*.json

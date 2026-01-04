@@ -4,3 +4,5 @@ python-dotenv
 requests
 pyarrow
 dotenv
+apache-airflow-providers-google
+airflow
