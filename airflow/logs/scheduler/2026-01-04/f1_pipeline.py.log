@@ -251,3 +251,297 @@
 [2026-01-04T13:01:04.073+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:04.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-01-04T13:01:04.089+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:04.089+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
 [2026-01-04T13:01:04.106+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.075 seconds
+[2026-01-04T13:01:52.150+0000] {processor.py:186} INFO - Started process (PID=51710) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:01:52.151+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:01:52.153+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:52.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:01:52.175+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:01:52.188+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:52.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:01:52.203+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:01:52.203+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:01:52.221+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.075 seconds
+[2026-01-04T13:02:43.682+0000] {processor.py:186} INFO - Started process (PID=52316) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:02:43.683+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:02:43.684+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:02:43.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:02:43.707+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:02:43.719+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:02:43.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:02:43.735+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:02:43.735+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:02:43.754+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.077 seconds
+[2026-01-04T13:03:32.939+0000] {processor.py:186} INFO - Started process (PID=52793) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:03:32.940+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:03:32.941+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:03:32.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:03:32.965+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:03:32.986+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:03:32.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:03:33.013+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:03:33.013+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:03:33.027+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.093 seconds
+[2026-01-04T13:04:21.178+0000] {processor.py:186} INFO - Started process (PID=53224) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:04:21.179+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:04:21.181+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:04:21.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:04:21.203+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:04:21.218+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:04:21.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:04:21.234+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:04:21.234+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:04:21.250+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.076 seconds
+[2026-01-04T13:05:15.397+0000] {processor.py:186} INFO - Started process (PID=53721) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:05:15.398+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:05:15.400+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:05:15.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:05:15.421+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:05:15.434+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:05:15.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:05:15.450+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:05:15.450+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:05:15.465+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.073 seconds
+[2026-01-04T13:06:09.636+0000] {processor.py:186} INFO - Started process (PID=54421) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:06:09.637+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:06:09.639+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:06:09.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:06:09.659+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:06:09.672+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:06:09.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:06:09.688+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:06:09.688+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:06:09.703+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:07:02.705+0000] {processor.py:186} INFO - Started process (PID=54832) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:07:02.705+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:07:02.707+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:07:02.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:07:02.729+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:07:02.742+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:07:02.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:07:02.767+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:07:02.767+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:07:02.787+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.087 seconds
+[2026-01-04T13:07:58.702+0000] {processor.py:186} INFO - Started process (PID=55340) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:07:58.703+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:07:58.705+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:07:58.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:07:58.729+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:07:58.747+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:07:58.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:07:58.772+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:07:58.772+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:07:58.794+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.097 seconds
+[2026-01-04T13:08:52.435+0000] {processor.py:186} INFO - Started process (PID=55801) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:08:52.436+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:08:52.438+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:08:52.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:08:52.459+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:08:52.472+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:08:52.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:08:52.492+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:08:52.491+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:08:52.506+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.075 seconds
+[2026-01-04T13:09:42.327+0000] {processor.py:186} INFO - Started process (PID=56208) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:09:42.328+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:09:42.330+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:09:42.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:09:42.351+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:09:42.364+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:09:42.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:09:42.380+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:09:42.379+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:09:42.394+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:10:36.154+0000] {processor.py:186} INFO - Started process (PID=56626) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:10:36.155+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:10:36.157+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:10:36.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:10:36.178+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:10:36.191+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:10:36.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:10:36.207+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:10:36.207+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:10:36.222+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.073 seconds
+[2026-01-04T13:11:28.668+0000] {processor.py:186} INFO - Started process (PID=57125) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:11:28.669+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:11:28.671+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:11:28.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:11:28.696+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:11:28.711+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:11:28.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:11:28.728+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:11:28.728+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:11:28.742+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.079 seconds
+[2026-01-04T13:12:21.156+0000] {processor.py:186} INFO - Started process (PID=57542) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:12:21.157+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:12:21.159+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:12:21.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:12:21.180+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:12:21.193+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:12:21.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:12:21.209+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:12:21.209+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:12:21.224+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.073 seconds
+[2026-01-04T13:13:11.608+0000] {processor.py:186} INFO - Started process (PID=57953) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:13:11.609+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:13:11.611+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:13:11.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:13:11.632+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:13:11.645+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:13:11.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:13:11.661+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:13:11.661+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:13:11.679+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.076 seconds
+[2026-01-04T13:14:05.714+0000] {processor.py:186} INFO - Started process (PID=58338) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:14:05.715+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:14:05.717+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:14:05.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:14:05.739+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:14:05.751+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:14:05.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:14:05.767+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:14:05.767+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:14:05.781+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:14:55.092+0000] {processor.py:186} INFO - Started process (PID=58715) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:14:55.093+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:14:55.095+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:14:55.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:14:55.116+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:14:55.129+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:14:55.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:14:55.145+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:14:55.145+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:14:55.160+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:15:46.831+0000] {processor.py:186} INFO - Started process (PID=59126) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:15:46.831+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:15:46.833+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:15:46.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:15:46.855+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:15:46.868+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:15:46.867+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:15:46.884+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:15:46.884+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:15:46.898+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:16:39.403+0000] {processor.py:186} INFO - Started process (PID=59608) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:16:39.403+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:16:39.405+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:16:39.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:16:39.427+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:16:39.439+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:16:39.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:16:39.455+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:16:39.455+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:16:39.469+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:17:30.162+0000] {processor.py:186} INFO - Started process (PID=60019) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:17:30.163+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:17:30.165+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:17:30.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:17:30.187+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:17:30.200+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:17:30.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:17:30.216+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:17:30.216+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:17:30.231+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.074 seconds
+[2026-01-04T13:18:22.638+0000] {processor.py:186} INFO - Started process (PID=60430) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:18:22.639+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:18:22.641+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:18:22.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:18:22.662+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:18:22.675+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:18:22.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:18:22.691+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:18:22.691+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:18:22.706+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:19:13.895+0000] {processor.py:186} INFO - Started process (PID=60847) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:19:13.896+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:19:13.898+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:19:13.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:19:13.919+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:19:13.932+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:19:13.931+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:19:13.947+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:19:13.947+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:19:13.962+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:20:09.098+0000] {processor.py:186} INFO - Started process (PID=61293) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:20:09.099+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:20:09.101+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:20:09.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:20:09.122+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:20:09.135+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:20:09.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:20:09.151+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:20:09.150+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:20:09.165+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:21:01.900+0000] {processor.py:186} INFO - Started process (PID=61652) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:21:01.901+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:21:01.903+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:21:01.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:21:01.924+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:21:01.936+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:21:01.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:21:01.956+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:21:01.956+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:21:01.970+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.075 seconds
+[2026-01-04T13:21:57.010+0000] {processor.py:186} INFO - Started process (PID=62157) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:21:57.011+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:21:57.013+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:21:57.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:21:57.035+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:21:57.047+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:21:57.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:21:57.064+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:21:57.064+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:21:57.078+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.073 seconds
+[2026-01-04T13:22:48.412+0000] {processor.py:186} INFO - Started process (PID=62567) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:22:48.413+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:22:48.415+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:22:48.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:22:48.436+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:22:48.449+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:22:48.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:22:48.465+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:22:48.465+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:22:48.479+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:23:39.808+0000] {processor.py:186} INFO - Started process (PID=62979) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:23:39.809+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:23:39.811+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:23:39.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:23:39.833+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:23:39.848+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:23:39.848+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:23:39.872+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:23:39.872+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:23:39.895+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.091 seconds
+[2026-01-04T13:24:32.287+0000] {processor.py:186} INFO - Started process (PID=63398) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:24:32.288+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:24:32.290+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:24:32.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:24:32.311+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:24:32.324+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:24:32.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:24:32.344+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:24:32.344+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:24:32.359+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.076 seconds
+[2026-01-04T13:25:24.610+0000] {processor.py:186} INFO - Started process (PID=63816) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:25:24.611+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:25:24.613+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:25:24.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:25:24.634+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:25:24.647+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:25:24.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:25:24.666+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:25:24.666+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:25:24.681+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.075 seconds
+[2026-01-04T13:26:17.704+0000] {processor.py:186} INFO - Started process (PID=64295) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:26:17.705+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:26:17.707+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:26:17.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:26:17.729+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:26:17.742+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:26:17.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:26:17.758+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:26:17.758+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:26:17.773+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.073 seconds
+[2026-01-04T13:27:12.447+0000] {processor.py:186} INFO - Started process (PID=64742) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:27:12.448+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:27:12.450+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:27:12.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:27:12.471+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:27:12.483+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:27:12.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:27:12.500+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:27:12.500+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:27:12.514+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:28:03.824+0000] {processor.py:186} INFO - Started process (PID=65086) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:28:03.825+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:28:03.827+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:28:03.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:28:03.849+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:28:03.862+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:28:03.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:28:03.877+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:28:03.877+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:28:03.892+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:28:55.535+0000] {processor.py:186} INFO - Started process (PID=65497) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:28:55.536+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:28:55.538+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:28:55.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:28:55.559+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:28:55.573+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:28:55.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:28:55.589+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:28:55.589+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:28:55.604+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.074 seconds
+[2026-01-04T13:29:48.335+0000] {processor.py:186} INFO - Started process (PID=65915) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:29:48.336+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:29:48.338+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:29:48.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:29:48.361+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:29:48.378+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:29:48.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:29:48.395+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:29:48.395+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:29:48.409+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.078 seconds
+[2026-01-04T13:30:42.853+0000] {processor.py:186} INFO - Started process (PID=66344) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:30:42.854+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:30:42.856+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:30:42.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:30:42.877+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:30:42.890+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:30:42.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:30:42.906+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:30:42.905+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:30:42.921+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.073 seconds
+[2026-01-04T13:31:31.226+0000] {processor.py:186} INFO - Started process (PID=66807) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:31:31.227+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:31:31.229+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:31:31.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:31:31.260+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:31:31.275+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:31:31.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:31:31.291+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:31:31.291+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:31:31.305+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.086 seconds
+[2026-01-04T13:32:18.073+0000] {processor.py:186} INFO - Started process (PID=67198) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:32:18.074+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:32:18.076+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:32:18.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:32:18.097+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:32:18.109+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:32:18.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:32:18.126+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:32:18.125+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:32:18.139+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:33:08.804+0000] {processor.py:186} INFO - Started process (PID=67608) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:33:08.805+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:33:08.807+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:33:08.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:33:08.829+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:33:08.842+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:33:08.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:33:08.859+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:33:08.859+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:33:08.875+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.076 seconds
+[2026-01-04T13:34:02.900+0000] {processor.py:186} INFO - Started process (PID=67962) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:34:02.901+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:34:02.903+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:34:02.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:34:02.924+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:34:02.937+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:34:02.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:34:02.953+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:34:02.953+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:34:02.967+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.071 seconds
+[2026-01-04T13:34:54.298+0000] {processor.py:186} INFO - Started process (PID=68373) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:34:54.299+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:34:54.301+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:34:54.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:34:54.322+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:34:54.342+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:34:54.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:34:54.366+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:34:54.366+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:34:54.383+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.090 seconds
+[2026-01-04T13:35:47.850+0000] {processor.py:186} INFO - Started process (PID=68818) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:35:47.851+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:35:47.853+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:35:47.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:35:47.874+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:35:47.887+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:35:47.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:35:47.902+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:35:47.902+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:35:47.917+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.072 seconds
+[2026-01-04T13:36:38.124+0000] {processor.py:186} INFO - Started process (PID=69266) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:36:38.125+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:36:38.127+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:36:38.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:36:38.160+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:36:38.181+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:36:38.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:36:38.207+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:36:38.207+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:36:38.240+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.122 seconds
+[2026-01-04T13:37:29.367+0000] {processor.py:186} INFO - Started process (PID=69700) to work on /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:37:29.367+0000] {processor.py:914} INFO - Processing file /workspaces/f1_data_team/airflow/dags/f1_pipeline.py for tasks to queue
+[2026-01-04T13:37:29.369+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:37:29.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:37:29.391+0000] {processor.py:925} INFO - DAG(s) 'f1_pipeline' retrieved from /workspaces/f1_data_team/airflow/dags/f1_pipeline.py
+[2026-01-04T13:37:29.405+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:37:29.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-04T13:37:29.422+0000] {logging_mixin.py:190} INFO - [2026-01-04T13:37:29.421+0000] {dag.py:4180} INFO - Setting next_dagrun for f1_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-04T13:37:29.436+0000] {processor.py:208} INFO - Processing /workspaces/f1_data_team/airflow/dags/f1_pipeline.py took 0.074 seconds

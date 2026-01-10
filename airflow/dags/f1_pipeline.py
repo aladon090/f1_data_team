@@ -9,7 +9,7 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from dotenv import load_dotenv
-
+from airflow.models import Variable
 
 # sys.path allows Airflow to find custom modules in the 'src' directory
 sys.path.insert(0, '/workspaces/f1_data_team')
@@ -27,7 +27,7 @@ from src.data_ingestion import ingest_f1_json
 
 # --- 2. PYTHON CALLABLE METHODS ---
 
-def extract_json_ti(ti, API_F1_KEY, F1_URL):
+def extract_json_ti(ti, F1_URL, **kwargs):
     """
     Method: extract_json_ti
     Purpose: Calls the F1 API, fetches team data, and saves it as a local JSON file.
@@ -36,6 +36,9 @@ def extract_json_ti(ti, API_F1_KEY, F1_URL):
         API_F1_KEY: The secret key for API-Sports.
         F1_URL: The API endpoint URL.
     """
+
+    #Fetches api key from airflow variables
+    API_F1_KEY = Variable.get("f1_api_key")
     # Fetch raw data using custom ingestion logic
     data = ingest_f1_json(API_F1_KEY=API_F1_KEY, F1_URL=F1_URL)
     
@@ -97,7 +100,6 @@ with DAG(
         task_id='extract_f1_json_task',
         python_callable=extract_json_ti,
         op_kwargs={
-            'API_F1_KEY': API_F1_KEY,
             'F1_URL': F1_URL
         }
     )
