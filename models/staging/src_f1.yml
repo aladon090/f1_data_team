@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: f1_raw
+    database: f1-project-483311
+    schema: f1_raw_zone
+    tables:
+      - name: teams
